@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet"  type= "text/css" href="formulario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Dev</title>
+</head>
+<body>
+   <h1 id="titulo">Cadastro pernambucano de devs</h1>
+   <h2 id="subtitulo">complete suas informações e faça parte da comunidade Dev-PE </h2>
+   
+    <div class="campo">
+
+        <form>  
+
+
+   
+            <fieldset class="grupo">
+
+       
+                <div>
+
+        
+                    <label for="nome"> <strong>nome</strong></label>
+        
+                    <input type="text" name="nome" id="nome" required>
+        
+    </div>
+
+    <div  class="campo">
+
+        <label for="sobrenome"> <strong> sobrenome</strong></label>
+
+        <input type="text" name="sobrenome" id="sobrenome" required>
+
+    </div>
+
+</fieldset>
+
+<div  class="campo">
+    <label for="Email"> <strong>Email</strong></label>
+    <input type="email" name="email" id="email" required>
+</div>
+
+<div class="campo">
+    <label > <strong> qual sua area de desenvolvimento?</strong> </label>
+    <label >
+        <input type="radio" name="devweb" value="frontend" checked> front-end
+    </label>
+    <label >
+        <input type="radio" name="devweb" value="backend"> back-end
+    </label>
+    <label >
+        <input type="radio" name="devweb" value="fullstack"> fullstack
+    </label>
+</div>
+
+
+<div  class="campo">
+    <label > <strong> senioridade </strong></label>
+    <select name="senioridade" id="senioridade">
+        <option>junior</option>
+        <option>pleno</option>
+        <option>senior</option>
+    </select>
+</div>
+
+<fieldset class="grupo">
+    <div  class="campo">
+        <label> <strong>  selecione as tecnologias que domina </strong></label>
+        <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+        <label for="tecnologia1">HTML</label>
+        
+        <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+        <label for="tecnologia2">CSS</label>
+        <input type="checkbox" name="tecnologia3" id="tecnologia3" value="PHP">
+        <label for="tecnologia3">PHP</label>
+        <input type="checkbox" name="tecnologia4" id="tecnologia4" value="JAVA">
+        <label for="tecnologia4">JAVA</label>
+        <input type="checkbox" name="tecnologia5" id="tecnologia5" value="JAVASCRIPT">
+        <label for="tecnologia5">JAVASCRIPT</label>
+        <input type="checkbox" name="tecnologia6" id="tecnologia6" value="PYTHON">
+        <label for="tecnologia6">PYTHON</label>
+        <input type="checkbox" name="tecnologia7" id="tecnologia7" value="C#">
+        <label for="tecnologia7">C#</label>
+    </div>
+
+        
+    
+</fieldset>
+<FIeldset>
+    
+        <div  class="campo">
+            <label> <strong> qual região de Pernambuco voce mora?</strong></label>
+            <input type="checkbox" name="regiao1" id="regiao1" value="regiao metropolitana">
+            <label for="regiao1">REGIÃO METROPOLITANA</label>
+            <input type="checkbox" name="regiao2" id="regiao2" value="zona da mata">
+            <label for="regiao1">ZONA DA MATA</label>
+            <input type="checkbox" name="regiao3" id="regiao3" value="agreste">
+            <label for="regiao1">AGRESTE</label>
+            <input type="checkbox" name="regiao4" id="regiao4" value="SERTAO">
+            <label for="regiao1">SERTÃO</label>
+    </div>
+</FIeldset>
+
+
+<div  class="campo">
+    <br>
+    <label>  <strong>conte um pouco da sua jornada dentro da tecnologia</strong></label>
+    <textarea name="experiencia" id="experiencia"  rows="5" style="width: 26em;"></textarea>
+</div>
+
+<button type="submit"> concluir</button>
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+   </div> 
+</body>
+</html>
